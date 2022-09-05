@@ -1,3 +1,13 @@
+/*
+
+On vacation this week.  I have some time to
+check out 'go'.
+
+I'm curious about what can be done with pointers
+in this memory-safe and garbage-collected world.
+
+*/
+
 package main
 
 import (
