@@ -59,6 +59,10 @@ func singBottles(b int) {
 	}
 }
 
+func setstring(ml *string) {
+	*ml = "Hello!"
+}
+
 func main() {
 	fmt.Println("Hello, World!")
 	fmt.Println(quote.Go())
@@ -71,8 +75,14 @@ func main() {
 		myfunc2(i)
 	}
 
-	for b := 99; b > 0; b-- {
-		singBottles(b)
-	}
+	myline := ""
+	setstring(&myline)
+	fmt.Println(myline)
+
+	/*
+		for b := 99; b > 0; b-- {
+			singBottles(b)
+		}
+	*/
 
 }
